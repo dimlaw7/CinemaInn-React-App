@@ -26,6 +26,18 @@ body {
   font-size: large;
 }
 
+.header .search {
+  position: relative;
+}
+
+.search i {
+  position: absolute;
+  color: #000;
+  right: 10px;
+  transform: translateY(50%);
+  cursor: pointer;
+}
+
 .header input {
   outline: none;
   border: 1px solid rgb(70, 111, 69);
@@ -148,5 +160,25 @@ body {
   .container {
     display: flex;
     flex-wrap: wrap;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background: #1e1d1d;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: -webkit-fill-available;
+    z-index: 1000;
+  }
+  .header .cabinet, .header .logo {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1083px) {
+  .movie {
+    margin: 0 6px 20px;
   }
 }
