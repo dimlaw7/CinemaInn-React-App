@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CinemaInn-React-App/static/css/main.d74c5ec7.css",
+    "main.js": "/CinemaInn-React-App/static/js/main.c0760be2.js",
+    "index.html": "/CinemaInn-React-App/index.html",
+    "main.d74c5ec7.css.map": "/CinemaInn-React-App/static/css/main.d74c5ec7.css.map",
+    "main.c0760be2.js.map": "/CinemaInn-React-App/static/js/main.c0760be2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d74c5ec7.css",
+    "static/js/main.c0760be2.js"
+  ]
+}
